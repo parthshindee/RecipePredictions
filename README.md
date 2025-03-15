@@ -16,6 +16,7 @@ This section introduces the dataset and the main question driving the project: "
 - Description of relevant columns: Includes preparation time, number of ingredients, recipe tags, nutritional information, user-provided description, and average ratings.
 
 **Sample Data**
+
 | name                              |     id |   minutes |   contributor_id | submitted   | average_rating |
 |:----------------------------------|-------:|----------:|-----------------:|:-----------:|---------------:|
 | 1 brownies in the world best ever  | 333281 |        40 |           985201 | 2008-10-27  |            4.0 |
@@ -23,6 +24,7 @@ This section introduces the dataset and the main question driving the project: "
 | 412 broccoli casserole             | 306168 |        40 |            50969 | 2008-05-30  |            5.0 |
 | millionaire pound cake             | 286009 |       120 |           461724 | 2008-02-12  |            5.0 |
 | 2000 meatloaf                      | 475785 |        90 |          2202916 | 2012-03-06  |            5.0 |
+
 
 ### 2. Data Cleaning and Exploratory Data Analysis
 This section details the steps taken to clean the data, including handling missing values, parsing string lists, and creating new features. It also showcases univariate and bivariate analyses with Plotly plots to explore the distributions of key variables and their relationships.
